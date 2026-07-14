@@ -1,0 +1,49 @@
+Python 3.13.12 (main, Apr 10 2026, 00:16:27) [GCC 14.3.1 20251017]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 9.9.0 -- An enhanced Interactive Python. Type '?' for help.
+Tip: Use `object?` to see the help on `object`, `object??` to view its source
+
+In [1]: run nfi_simulation_solver.py
+Initializing Ground Truth Scatterer Field...
+
+================================================================================
+RUNNING CASE 1: bg=0.00, wiener=False, LSA_CALC=False, Bits=-1
+================================================================================
+  Building Gram Overlap Matrix (Dual Space)...
+  Constructing Dense Discrete IFUA Matrix...
+  Diagonalizing IFUA Matrix...
+  Condition Number (kappa)     : 127.51
+  Final Structural Correlation : 1.0000
+
+================================================================================
+RUNNING CASE 2: bg=0.00, wiener=True, LSA_CALC=False, Bits=-1
+================================================================================
+  Building Gram Overlap Matrix (Dual Space)...
+  Constructing Dense Discrete IFUA Matrix...
+  Diagonalizing IFUA Matrix...
+  Condition Number (kappa)     : 19.90
+  Final Structural Correlation : 1.0000
+
+================================================================================
+RUNNING CASE 3: bg=1.00, wiener=False, LSA_CALC=False, Bits=-1
+================================================================================
+  Building Gram Overlap Matrix (Dual Space)...
+  Constructing Dense Discrete IFUA Matrix...
+  Diagonalizing IFUA Matrix...
+  Condition Number (kappa)     : 65.65
+  Final Structural Correlation : 1.0000
+
+================================================================================
+RUNNING CASE 4: bg=1.00, wiener=True, LSA_CALC=False, Bits=-1
+================================================================================
+  Building Gram Overlap Matrix (Dual Space)...
+  Constructing Dense Discrete IFUA Matrix...
+  Diagonalizing IFUA Matrix...
+  Condition Number (kappa)     : 38.87
+  Final Structural Correlation : 1.0000
+
+[##############################################################################]
+Simulation Complete. Numeric Results successfully saved to: summary_results_b_-1_snf_True_lsa_False.csv
+[##############################################################################]
+
+In [2]: 
